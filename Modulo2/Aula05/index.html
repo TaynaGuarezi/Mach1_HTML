@@ -5,36 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 05</title>
-
 </head>
-
 <body>
-    <!---AULA DE HIPERLINKS-->
+    <!--AULA DE HIPERLINKS-->
 
-    <a href="http://facebook.com" title="Ao clicar aqui vai para o facebook">link do Facebook </a>
-<!--quando passa o mousse aparece a mensagem do title-->
-<br>
+ <div>  
 
-<a href="http://google.com" title="Substitui sua página">Link do Google</a>
-<br>
-<a href="http://google.com" title="link abre em outra guia" target="_blank">link em outra guia</a>
-<br>
-<a href="http://google.com" title="padrão substitui sua página" target="_self">padrão substitui essa pagina</a>
+<a href="http://google.com"> Link do Google </a>
+<p>hiper link simples substitui a página</p>
+<hr>
 
-<br><br>
+<a href="http://facebook.com" title="Mensagem quando passa o mouse (descrição) "> Link do Facebook</a>
+<p>hiperlink com descrição, substitui a página</p>
+<hr>
 
-<a href="#" title="CARD">
-<div>
-    <h1>Titulo da div</h1>
-    <p>Frase 1 do paragrafo</p>
-    <hr>
-    <h2>Sub do card</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda velit nobis, architecto debitis ullam unde porro harum similique nam inventore?</p>
+<a href="http://instagram.com" title="Ao clicar irá para o instagram">Link do Instagram</a>
+<p>hiperlink com descrição(2), substitui a página</p>
+<hr>
+
+<a href="http://youtube.com" target="_blank">Link do Youtube</a>
+<p>Abre o link em uma nova guia</p>
+<hr>
+
+<a href="http://twitter.com" target="_self">Link do twitter</a>
+<p>Substitui a página mas não usa a target_self</p>
+<hr>
+
+<a href="http://globo.com" title="Irá para a página do Globo.com" target="_self"> Link do Globo</a>
+<p>Substitui a página usando target_self e tem descrição</p>
+<hr>
+
+<a href="http://bemach1.com.br" title="Irá para a página da mach1" target="_blank">Link da Mach1</a>
+<p>Abre uma nova guia usando target_blank e tem descrição</p>
+<hr>
+
 </div>
 
-<a href="gatinhofofo.png" title="Foto gatinho clique para baixar" download="Imagem baixadaS"> 
-    
-    <img src="gatinhofofo.png"></a>
+<!--Criando um card colocando outras tag dentro da tag A-->
+
+<a href="#" title="Aqui é um card">
+<div>
+    <h1>Titulo da div</h1>
+    <p>Frase 1 do partagráfo</p>
+    <hr>
+    <h2>Sub do card</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sit, reiciendis beatae nobis et voluptatibus ullam alias. Ut, qui blanditiis!</p>
+     
+</div>  </a>
+<hr>
+
+<!--Imagem-->
+<a href="gatinhofofo.png" title="Gatinho">
+    <img src="https://static.wikia.nocookie.net/genshin-impact/images/4/41/Item_Gato_do_Norte.png/revision/latest?cb=20211204172429&path-prefix=pt-br"  >
+
+</a>
+<p>Imagem com link</p>
+<hr>
+
+<!--Baixar imagem-->
+<a href="gatinhofofo.png" title="Clique para baixar" download="Foto do gatinho">
+    <img src="gatinhofofo.png" >
+
+</a>
+<p>Baixar imagem local</p>
+<!--Usar extensão liveserver para testar-->
+
+<hr>
+<!--contatos-->
+<a href="contatos.html">Contatos</a>
+<hr>
+
+
+
+
 
 
 
