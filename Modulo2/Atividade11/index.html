@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+</head>
+<body>
+    
+    <form action="http://mach1.great-site.net/cadastroRecruta.php" method="post" enctype="multipart/form-data">
+
+        <h1>Aliste-se</h1>
+        <br>
+                
+        
+            <label for="email">Seu e-mail</label>
+            <br>
+              <input id="email" type="text" placeholder="seuemail@mail.com" name="email" >
+              <br><br>
+
+              <label for="senha">Senha</label>
+            <br>
+              <input id="senha" type="password" placeholder="Crie uma senha" name="senha" >
+              <br><br>
+
+              <label for="nome_com">Nome Completo</label>
+            <br>
+              <input id="nome_com" type="text" placeholder="Informe seu nome" name="nomeCompleto" >
+              <br><br>
+
+              <label for="cpf">CPF (Apenas números) </label>
+            <br>
+              <input id="cpf" type="text" placeholder="00000000000" name="cpf" >
+              <br><br>
+
+              <label for="rg">RG (Apenas números)</label>
+            <br>
+              <input id="rg" type="text" placeholder="000000000" name="rg" >
+              <br><br>
+
+              <label for="data">Data de nascimento</label>
+              <br>
+                <input id="data" type="text" placeholder="dd/mm/aaaa" name="nascimento" >
+                <br><br>
+
+             <fieldset>
+                    <legend>Necessidades especiais</legend>
+                    <label for="sim">Sim
+                        <input id="sim" type="radio" name="necessidadesEspeciais" value="Sim">
+                    </label> <br><br>
+
+                    <label for="não">Não
+                    
+
+                        <input id="não" type="radio" name="necessidadesEspeciais" value="Não">
+
+                    </label>
+
+
+             </fieldset>
+
+                <br><br>
+
+                <label for="estado">Estado de residência</label><br><br>
+                <select id="estado" name="estado">
+                    <option>Selecione o seu estado</option>
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Ceará</option>
+                    <option>Santa Catarina</option>
+                    <option>Minas Gerais</option>
+                </select> <br><br>
+
+              <fieldset>
+                    <legend>Especialidade desejada</legend>
+
+                    <label for="espec1">
+                        <input id="espec1" type="checkbox" name="especializacao1" value="Mecãnica de aeronaves (Back-end)">
+                        Mecãnica de aeronaves (Back-end)
+                    </label> <br><br>
+
+                    <label for="espec2">
+                        <input id="espec2" type="checkbox" name="especializacao2" value="Mecãnica de aeronaves (Front-end)">
+                        Mecãnica de aeronaves (Front-end)
+                    </label><br><br>
+
+                    <label for="espec3">
+                        <input id="espec3" type="checkbox" name="especializacao3" value="Engenheiro de aeronaves (FullStack)">
+                        Engenheiro de aeronaves (FullStack)
+                    </label><br><br>
+
+                    <label for="espec4">
+                        <input id="espec4" type="checkbox" name="especializacao4" value="Piloto (Tester)">
+                        Piloto (Tester)
+                    </label><br><br>
+
+                    <label for="espec5">
+                        <input id="espec5" type="checkbox" name="especializacao5" value="Operador de trafego aéreo (Scrum Master)">
+                        Operador de trafego aéreo (Scrum Master)
+                    </label>
+               </fieldset>
+               <br><br>
+
+        <input type="file"> 
+        <br><br><br>
+        <input type="submit">
+
+</form>
+
+        
+
+
+
+
+
+
+    <!-- http://mach1.great-site.net/cadastroRecruta.php
+    email
+        senha
+        nomeCompleto
+        cpf
+        rg
+        nascimento
+        necessidadesEspeciais [Para os campos de radio]
+        estado
+
+        [Para os campos de chackbox]
+        especializacao1
+        especializacao2
+        especializacao3
+        especializacao4
+        especializacao5
+
+        foto -->
+    
+</body>
+</html>
